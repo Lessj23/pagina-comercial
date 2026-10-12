@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More Donuts | Donas Artesanales & Sabores de Temporada</title>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://images.unsplash.com https://graph.facebook.com; img-src 'self' data: https://images.unsplash.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://graph.facebook.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
+  
+  <!-- Meta SEO -->
+  <meta name="description" content="More Donuts - Las donas artesanales más deliciosas y esponjosas. Sabores clásicos y temáticas exclusivas cada mes. Pide en línea con precios en Pesos Mexicanos.">
+  
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css?v=20261012">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Top Announcement Bar
+       ========================================================================== -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div>
+        <span class="top-bar-badge">OFERTA DEL DÍA</span>
+        <span>¡Envío <strong>GRATIS</strong> en pedidos mayores a $299 MXN en tu zona! 🛵</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="#locations" class="top-bar-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Sucursales CDMX
+        </a>
+        <a href="https://wa.me/525512345678" target="_blank" rel="noopener noreferrer" class="top-bar-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          WhatsApp: 55 1234 5678
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Header & Navigation Bar
+       ========================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo "more donuts" -->
+      <a href="#" class="brand-logo">
+        <div class="logo-icon-wrap">
+          <!-- Stylized Donut Logo Vector -->
+          <svg class="logo-donut-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Dough -->
+            <circle cx="50" cy="50" r="44" fill="#eab308" stroke="#ca8a04" stroke-width="3"/>
+            <!-- Glaze Red -->
+            <path d="M 50 8 C 72 8, 92 24, 92 50 C 92 68, 80 82, 70 85 C 64 87, 60 82, 54 86 C 48 90, 42 92, 34 90 C 20 86, 8 72, 8 50 C 8 26, 26 8, 50 8 Z" fill="#e11d48"/>
+            <!-- Donut Hole -->
+            <circle cx="50" cy="50" r="16" fill="#09090b" stroke="#000" stroke-width="2"/>
+            <!-- Sprinkles -->
+            <rect x="30" y="24" width="8" height="3" rx="1.5" transform="rotate(30 30 24)" fill="#ffffff" />
+            <rect x="62" y="22" width="8" height="3" rx="1.5" transform="rotate(-20 62 22)" fill="#facc15" />
+            <rect x="74" y="45" width="8" height="3" rx="1.5" transform="rotate(60 74 45)" fill="#ffffff" />
+            <rect x="68" y="70" width="8" height="3" rx="1.5" transform="rotate(-30 68 70)" fill="#38bdf8" />
+            <rect x="26" y="65" width="8" height="3" rx="1.5" transform="rotate(45 26 65)" fill="#ffffff" />
+            <!-- Bite Mark for Playful Identity -->
+            <path d="M 88 40 Q 75 48 88 56 Q 78 64 88 70" stroke="#09090b" stroke-width="6" fill="#09090b" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <div class="brand-name">
+            <span>MORE</span>&nbsp;DONUTS
+          </div>
+          <span class="brand-tagline">BAKERY & SPECIALTY COFFEE</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#menu" class="nav-link active">Menú</a></li>
+          <li><a href="#temporada" class="nav-link">De Temporada <span class="nav-badge-new">Mes</span></a></li>
+          <li><a href="#builder" class="nav-link">Crea tu Dona</a></li>
+          <li><a href="#combos" class="nav-link">Promos & Packs</a></li>
+          <li><a href="#reviews" class="nav-link">Reseñas</a></li>
+          <li><a href="#locations" class="nav-link">Sucursales</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Cart Button -->
+        <button class="btn-icon" id="cartToggleBtn" aria-label="Ver Carrito de Donas">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+        <!-- User Auth Container -->
+        <div style="position: relative;" id="navAuthContainer">
+          <button class="user-auth-btn" id="openAuthModalBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            <span id="navAuthLabel">Ingresar</span>
+          </button>
+          
+          <!-- Dropdown if logged in -->
+          <div class="user-dropdown" id="userDropdown">
+            <div style="padding: 0.5rem 0.8rem; border-bottom: 1px solid var(--border-subtle); margin-bottom: 0.3rem;">
+              <div id="dropdownUserName" style="font-weight: 800; font-size: 0.92rem; color: #fff;">Usuario</div>
+              <div id="dropdownUserRole" style="font-size: 0.72rem; color: var(--red-primary); text-transform: uppercase; font-weight: 800;">Cliente</div>
+            </div>
+            <button class="dropdown-item" id="dropdownOpenPortalBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <span>Mi Portal / Pedidos</span>
+            </button>
+            <button class="dropdown-item" id="dropdownOpenAdminBtn" style="display: none;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+              <span style="color: var(--red-light); font-weight: 800;">Panel de Administrador</span>
+            </button>
+            <button class="dropdown-item danger" id="dropdownLogoutBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+              <span>Cerrar Sesión</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Direct WhatsApp CTA -->
+        <a href="#menu" class="btn-primary" style="display: none; @media(min-width: 600px){display: flex;}">
+          <span>Ordenar Ahora</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="btn-icon mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú móvil">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#" onclick="openAuthModal(); return false;">👤 Iniciar Sesión / Cuenta</a>
+      <a href="#menu">🍩 Menú Completo</a>
+      <a href="#temporada">🌟 Sabores de Temporada</a>
+      <a href="#builder">🎨 Laboratorio: Crea tu Dona</a>
+      <a href="#combos">🎁 Packs & Docenas</a>
+      <a href="#reviews">⭐ Opiniones de Clientes</a>
+      <a href="#locations">📍 Sucursales & Horarios</a>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== */ -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      
+      <!-- Hero Copy -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-pulse"></span>
+          <span>HECHAS FRESCAS CADA MAÑANA</span>
+        </div>
+
+        <h1 class="hero-title">
+          MÁS SABOR.<br>
+          MÁS ANTOJO.<br>
+          <span class="highlight">MORE DONUTS.</span>
+        </h1>
+
+        <p class="hero-description">
+          Donas artesanales elaboradas con masa brioche de fermentación lenta, glaseados con fruta natural y chocolate de origen. Descubre nuestros sabores clásicos y las <strong>temáticas exclusivas de cada mes</strong>.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="btn-primary">
+            <span>Ver Menú & Precios en MXN</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#builder" class="btn-secondary">
+            <span>Personaliza tu Dona</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+          </a>
+        </div>
+
+        <!-- Hero Stats -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">100<span>%</span></span>
+            <span class="stat-label">Artesanales del Día</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">12<span>+</span></span>
+            <span class="stat-label">Temáticas Anuales</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">4.9<span>★</span></span>
+            <span class="stat-label">+2,400 Reseñas Reales</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Graphic -->
+      <div class="hero-visual">
+        <div class="hero-visual-bg"></div>
+
+        <!-- Floating Badge Top -->
+        <div class="floating-badge badge-top">
+          <div class="badge-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div>
+            <div class="badge-text-primary">Glaseado Secreto</div>
+            <div class="badge-text-secondary">Con fresas de Irapuato</div>
+          </div>
+        </div>
+
+        <!-- Donut Showcase Center -->
+        <div class="hero-donut-showcase">
+          <img src="images/caja-donas.jpg" alt="More Donuts Artesanales Recién Horneadas" loading="eager">
+        </div>
+
+        <!-- Floating Badge Bottom -->
+        <div class="floating-badge badge-bottom">
+          <div class="badge-icon" style="background: #22c55e;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </div>
+          <div>
+            <div class="badge-text-primary">Desde $25.00 MXN</div>
+            <div class="badge-text-secondary">Precios justos en pesos</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Seasonal Flavors Showcase (12 Months Theme Carousel/Selector)
+       ========================================================================== -->
+  <section class="section seasonal-section" id="temporada">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-subtitle">EXCLUSIVIDAD MORE DONUTS</span>
+        <h2 class="section-title">Sabores de Temporada</h2>
+        <p class="section-desc">
+          ¡Cada mes una temática completamente diferente! Haz clic en cualquier mes para explorar la colección del año.
+        </p>
+      </div>
+
+      <!-- Month Selector Strip -->
+      <div class="month-selector-wrap">
+        <div class="month-selector-title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          Selecciona un mes para ver la temática:
+        </div>
+        <div class="month-nav" id="monthNav">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+
+      <!-- Seasonal Spotlight Banner -->
+      <div class="season-banner">
+        <div class="season-banner-inner">
+          <div>
+            <span class="season-tag" id="seasonBannerTag">Temporada Activa del Mes</span>
+            <h3 class="season-banner-title" id="seasonBannerTitle">
+              🎃 Temática de Octubre: <span class="text-red">Spooky Season: Pumpkin Spice & Toffee</span>
+            </h3>
+            <p class="season-banner-desc" id="seasonBannerDesc">
+              Calabaza de castilla asada, especias aromáticas, toffee salado oscuro y una telaraña de chocolate blanco.
+            </p>
+
+            <div class="season-countdown">
+              <div class="countdown-box">
+                <div class="countdown-num" id="countdownDays">23</div>
+                <div class="countdown-label">Días</div>
+              </div>
+              <div class="countdown-box">
+                <div class="countdown-num" id="countdownHours">14</div>
+                <div class="countdown-label">Horas</div>
+              </div>
+              <div class="countdown-box">
+                <div class="countdown-num" id="countdownMins">45</div>
+                <div class="countdown-label">Mins</div>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+              <span id="seasonBannerPrice" style="font-size: 1.6rem; font-weight: 900; font-family: var(--font-display); color: #fff;">$44.00 MXN</span>
+              <button class="btn-primary" id="seasonBannerAddBtn" onclick="addToCart('season-halloween-spooky')">
+                <span>Agregar Dona del Mes</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Featured Season Donut Photo -->
+          <div style="display: flex; justify-content: center; align-items: center;">
+            <div style="width: 260px; height: 260px; border-radius: var(--radius-lg); overflow: hidden; border: 2px solid var(--border-red); box-shadow: 0 20px 40px rgba(0,0,0,0.85);">
+              <img id="seasonBannerImg" src="images/chocolate.jpg" alt="Spooky Season: Pumpkin Spice & Toffee" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Menu Section (Clásicos, Temporada, Bebidas, Combos)
+       ========================================================================== -->
+  <section class="section" id="menu">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-subtitle">NUESTRO MENÚ ARTESANAL</span>
+        <h2 class="section-title">Elige tu Antojo Perfecto</h2>
+        <p class="section-desc">
+          Desde las recetas tradicionales que todos aman hasta creaciones de vanguardia. Todos los precios están en Pesos Mexicanos (MXN).
+        </p>
+      </div>
+
+      <!-- Filter Controls & Real-Time Search -->
+      <div class="menu-controls">
+        <div class="menu-search-filter">
+          
+          <!-- Filter Tabs -->
+          <div class="filter-tabs">
+            <button class="filter-tab active" data-category="todos">Todo el Menú</button>
+            <button class="filter-tab" data-category="clasicas">🍩 Clásicas</button>
+            <button class="filter-tab" data-category="temporada">🌟 De Temporada</button>
+            <button class="filter-tab" data-category="combos">🎁 Packs & Cajas</button>
+            <button class="filter-tab" data-category="bebidas">☕ Cafetería & Bebidas</button>
+          </div>
+
+          <!-- Live Search Bar -->
+          <div class="search-input-wrap">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="menuSearchInput" class="search-input" placeholder="Buscar sabor (ej. Glaseada, Chocolate, Nogada)...">
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Interactive Donut Builder ("Laboratorio More Donuts")
+       ========================================================================== -->
+  <section class="section builder-section" id="builder">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-subtitle">EXPERIENCIA INTERACTIVA</span>
+        <h2 class="section-title">Laboratorio More: Crea tu Propia Dona</h2>
+        <p class="section-desc">
+          Elige masa, glaseado, toppings y drizzle a tu gusto. ¡Mírala cambiar en vivo y agrégala directo a tu pedido!
+        </p>
+      </div>
+
+      <div class="builder-wrapper">
+        
+        <!-- Live Preview Stage Column -->
+        <div class="builder-preview-col">
+          <div class="donut-stage">
+            <div class="donut-stage-glow"></div>
+            <div id="builderDonutStage">
+              <!-- SVG preview rendered via JS -->
+            </div>
+          </div>
+
+          <div class="builder-summary">
+            <input type="text" id="builderDonutName" class="builder-name-input" value="Mi More Dona" title="Ponle un nombre a tu creación">
+            <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem;">PRECIO TOTAL:</div>
+            <div class="builder-summary-price" id="builderPriceDisplay">$42.00 MXN</div>
+            <button class="btn-primary" id="addCustomDonutBtn" style="width: 100%; justify-content: center;">
+              <span>Agregar Creación al Carrito</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Customization Steps Column -->
+        <div class="builder-steps-col">
+          
+          <!-- Step 1: Base Dough -->
+          <div>
+            <div class="builder-step-header">
+              <span class="step-pill-number">1</span>
+              <span>Elige la Masa Base</span>
+            </div>
+            <div class="option-cards-group">
+              <button class="opt-btn active" data-dough="original" data-name="Original Brioche" data-color="#eab308" data-price="20">
+                <span class="opt-color-dot" style="background: #eab308;"></span>
+                <span>Original Brioche</span>
+                <small>$20 MXN</small>
+              </button>
+              <button class="opt-btn" data-dough="cacao" data-name="Cacao Obscuro" data-color="#3d1f14" data-price="22">
+                <span class="opt-color-dot" style="background: #3d1f14;"></span>
+                <span>Cacao Obscuro</span>
+                <small>$22 MXN</small>
+              </button>
+              <button class="opt-btn" data-dough="redvelvet" data-name="Red Velvet" data-color="#991b1b" data-price="24">
+                <span class="opt-color-dot" style="background: #991b1b;"></span>
+                <span>Red Velvet</span>
+                <small>$24 MXN</small>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Glaze -->
+          <div>
+            <div class="builder-step-header">
+              <span class="step-pill-number">2</span>
+              <span>Elige el Glaseado</span>
+            </div>
+            <div class="option-cards-group">
+              <button class="opt-btn active" data-glaze="red" data-name="Fresa Pasión Roja" data-color="#e11d48" data-price="10">
+                <span class="opt-color-dot" style="background: #e11d48;"></span>
+                <span>Fresa Roja</span>
+                <small>+$10 MXN</small>
+              </button>
+              <button class="opt-btn" data-glaze="chocolate" data-name="Chocolate Belga" data-color="#2d1606" data-price="12">
+                <span class="opt-color-dot" style="background: #2d1606;"></span>
+                <span>Chocolate</span>
+                <small>+$12 MXN</small>
+              </button>
+              <button class="opt-btn" data-glaze="vainilla" data-name="Vainilla Real" data-color="#fef3c7" data-price="10">
+                <span class="opt-color-dot" style="background: #fef3c7;"></span>
+                <span>Vainilla</span>
+                <small>+$10 MXN</small>
+              </button>
+              <button class="opt-btn" data-glaze="matcha" data-name="Matcha Imperial" data-color="#4d7c0f" data-price="14">
+                <span class="opt-color-dot" style="background: #4d7c0f;"></span>
+                <span>Matcha</span>
+                <small>+$14 MXN</small>
+              </button>
+              <button class="opt-btn" data-glaze="none" data-name="Sin Glaseado" data-color="transparent" data-price="0">
+                <span class="opt-color-dot" style="background: transparent;"></span>
+                <span>Al Natural</span>
+                <small>+$0 MXN</small>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 3: Toppings -->
+          <div>
+            <div class="builder-step-header">
+              <span class="step-pill-number">3</span>
+              <span>Elige el Topping Crujiente</span>
+            </div>
+            <div class="option-cards-group">
+              <button class="opt-btn active" data-topping="sprinkles" data-name="Chispas de Colores" data-price="6">
+                <span>🎉 Chispas More</span>
+                <small>+$6 MXN</small>
+              </button>
+              <button class="opt-btn" data-topping="oreo" data-name="Galleta Oreo Triturada" data-price="8">
+                <span>🍪 Oreo Crunch</span>
+                <small>+$8 MXN</small>
+              </button>
+              <button class="opt-btn" data-topping="pecana" data-name="Nuez Pecana Tostada" data-price="10">
+                <span>🥜 Nuez Pecana</span>
+                <small>+$10 MXN</small>
+              </button>
+              <button class="opt-btn" data-topping="none" data-name="Sin Topping" data-price="0">
+                <span>❌ Sin Topping</span>
+                <small>+$0 MXN</small>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 4: Drizzle Extra -->
+          <div>
+            <div class="builder-step-header">
+              <span class="step-pill-number">4</span>
+              <span>Drizzle o Espiral Final</span>
+            </div>
+            <div class="option-cards-group">
+              <button class="opt-btn active" data-drizzle="chocolate" data-name="Drizzle de Chocolate" data-color="#2d1606" data-price="6">
+                <span>🍫 Drizzle Choco</span>
+                <small>+$6 MXN</small>
+              </button>
+              <button class="opt-btn" data-drizzle="cajeta" data-name="Cajeta Envinada" data-color="#b45309" data-price="6">
+                <span>🍯 Cajeta Quemada</span>
+                <small>+$6 MXN</small>
+              </button>
+              <button class="opt-btn" data-drizzle="blanco" data-name="Chocolate Blanco" data-color="#ffffff" data-price="6">
+                <span>🥛 Choco Blanco</span>
+                <small>+$6 MXN</small>
+              </button>
+              <button class="opt-btn" data-drizzle="none" data-name="Sin Drizzle" data-color="transparent" data-price="0">
+                <span>❌ Ninguno</span>
+                <small>+$0 MXN</small>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Combos & Packs Section
+       ========================================================================== -->
+  <section class="section" id="combos">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-subtitle">PARA COMPARTIR & AHORRAR</span>
+        <h2 class="section-title">Packs Especiales More Donuts</h2>
+        <p class="section-desc">
+          Arma tus cajas para fiestas, reuniones de oficina o regala una dulce sorpresa en nuestra caja conmemorativa.
+        </p>
+      </div>
+
+      <div class="combos-grid">
+        
+        <!-- Pack 1 -->
+        <div class="combo-card">
+          <div>
+            <span class="combo-badge">Ahorra $20 MXN</span>
+            <h3 class="combo-title">Caja Media Docena</h3>
+            <p class="combo-desc">La favorita para reuniones familiares o consentir a tu pareja. 6 donas a tu gusto.</p>
+            <ul class="combo-perks">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Elige 4 donas clásicas + 2 de temporada
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Empaque de lujo More Donuts color negro mate
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Incluye tarjeta para dedicatoria personalizada
+              </li>
+            </ul>
+          </div>
+          <div class="combo-bottom">
+            <div>
+              <div style="font-size: 1.6rem; font-weight: 900; font-family: var(--font-display);">$175.00 MXN</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Precio Regular: $195 MXN</div>
+            </div>
+            <button class="btn-primary" onclick="addToCart('pack-media-docena')">Pedir Pack</button>
+          </div>
+        </div>
+
+        <!-- Pack 2: Featured -->
+        <div class="combo-card featured">
+          <div>
+            <span class="combo-badge">¡Más Popular!</span>
+            <h3 class="combo-title">Docena Fiesta "More Donuts"</h3>
+            <p class="combo-desc">12 donas supremas para consentir a toda la oficina o ser el alma de la fiesta.</p>
+            <ul class="combo-perks">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Surtido libre entre clásicas, rellenas y de temporada
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Envío 100% GRATUITO incluido en tu zona
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Caja rígida conmemorativa roja y negra
+              </li>
+            </ul>
+          </div>
+          <div class="combo-bottom">
+            <div>
+              <div style="font-size: 1.6rem; font-weight: 900; font-family: var(--font-display); color: var(--red-light);">$320.00 MXN</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Precio Regular: $380 MXN</div>
+            </div>
+            <button class="btn-primary" onclick="addToCart('pack-docena-fiesta')">Pedir Docena</button>
+          </div>
+        </div>
+
+        <!-- Pack 3: Coffee Pair -->
+        <div class="combo-card">
+          <div>
+            <span class="combo-badge">Desayuno & Coffee</span>
+            <h3 class="combo-title">Combo Pareja & Café</h3>
+            <p class="combo-desc">La combinación ideal para comenzar la mañana con la mejor vibra y energía.</p>
+            <ul class="combo-perks">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                2 Donas a elección (Glaseada o Chocolate)
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                2 Cafés de Olla chiapanecos o Cold Brew artesanal
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Vasos térmicos biodegradables More
+              </li>
+            </ul>
+          </div>
+          <div class="combo-bottom">
+            <div>
+              <div style="font-size: 1.6rem; font-weight: 900; font-family: var(--font-display);">$120.00 MXN</div>
+              <div style="font-size: 0.75rem; color: var(--text-muted);">Precio Regular: $140 MXN</div>
+            </div>
+            <button class="btn-primary" onclick="addToCart('classic-glaseada'); addToCart('drink-cafe-de-olla');">Pedir Combo</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Why More Donuts & Features
+       ========================================================================== -->
+  <section class="section" style="background: #0d0d11; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-subtitle">CALIDAD SIN COMPROMISOS</span>
+        <h2 class="section-title">¿Por qué elegir More Donuts?</h2>
+        <p class="section-desc">
+          Horneamos con amor y los más altos estándares gastronómicos para ofrecerte una experiencia única en cada bocado.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        
+        <div class="feature-box">
+          <div class="feature-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </div>
+          <h3 class="feature-title">Precios Claros en MXN</h3>
+          <p class="feature-desc">Sin cargos ocultos. Todos nuestros precios están expresados en Pesos Mexicanos con impuestos incluidos.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3 class="feature-title">Ingredientes 100% Reales</h3>
+          <p class="feature-desc">Mantequilla de campo, vainas de vainilla de Papantla, cacao criollo y fresas frescas de agricultores locales.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3 class="feature-title">Horneadas Hoy Mismo</h3>
+          <p class="feature-desc">Nuestras donas jamás duermen en refrigeradores. Horneamos tres tandas diarias para garantizar frescura esponjosa.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+          </div>
+          <h3 class="feature-title">Entrega Rápida & Caliente</h3>
+          <p class="feature-desc">Nuestros repartidores utilizan empaques térmicos especiales para que tu pedido llegue intacto y tibio.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Customer Reviews & Social Proof
+       ========================================================================== -->
+  <section class="section" id="reviews">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-subtitle">LO QUE DICEN NUESTROS CLIENTES</span>
+        <h2 class="section-title">Amor a Primer Bocado</h2>
+        <p class="section-desc">
+          Más de 2,400 reseñas con promedio de 4.9 estrellas avalan el sabor inigualable de More Donuts.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        
+        <div class="review-card">
+          <div>
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"La dona en nogada de septiembre es una completa obra de arte. La nuez de castilla fresca y la masa brioche son insuperables. ¡Pedí la docena para la oficina y voló en 10 minutos!"</p>
+          </div>
+          <div class="reviewer">
+            <div class="reviewer-avatar">VR</div>
+            <div>
+              <div class="reviewer-name">Valeria Rodríguez</div>
+              <div class="reviewer-status">Cliente Frecuente • CDMX</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"La herramienta para crear tu propia dona en la página es súper divertida y fácil de usar. Mi hija creó una dona con masa Red Velvet, chispas y chocolate, ¡y quedó idéntica y deliciosa!"</p>
+          </div>
+          <div class="reviewer">
+            <div class="reviewer-avatar">CA</div>
+            <div>
+              <div class="reviewer-name">Carlos Alatorre</div>
+              <div class="reviewer-status">Pedido Familiar</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"El café de olla con la clásica glaseada es mi desayuno obligado de todos los viernes. El diseño de la página es moderno y hacer el pedido por WhatsApp fue en menos de 1 minuto."</p>
+          </div>
+          <div class="reviewer">
+            <div class="reviewer-avatar">SM</div>
+            <div>
+              <div class="reviewer-name">Sofía Morales</div>
+              <div class="reviewer-status">Compradora Verificada</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FAQ (Preguntas Frecuentes)
+       ========================================================================== -->
+  <section class="section" style="background: #09090c; border-top: 1px solid var(--border-subtle);">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-subtitle">RESOLVEMOS TUS DUDAS</span>
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <p class="section-desc">
+          Todo lo que necesitas saber antes de pedir tus More Donuts.
+        </p>
+      </div>
+
+      <div class="faq-wrap">
+        
+        <div class="faq-item open">
+          <div class="faq-question">
+            <span>¿Cómo funcionan los sabores de temporada por mes?</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+          <div class="faq-answer">
+            Cada primer día de mes lanzamos 2 a 3 sabores exclusivos inspirados en festividades y tradiciones (Septiembre patrio, Octubre Halloween, Noviembre Día de Muertos, Diciembre navideño, etc.). Estos sabores están disponibles durante los 30 días del mes o hasta agotar existencias del día.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>¿En qué moneda están expresados los precios?</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+          <div class="faq-answer">
+            Todos nuestros precios están indicados en Pesos Mexicanos (MXN) con IVA incluido. Nuestras donas clásicas van desde los $25.00 MXN y contamos con paquetes con descuento especial.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>¿Cómo se realiza el pago de mi pedido?</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+          <div class="faq-answer">
+            Aceptamos pago contra entrega en efectivo, tarjetas de débito/crédito (con terminal portátil del repartidor), transferencia electrónica SPEI directa o pago con tarjeta en línea al confirmar tu orden por WhatsApp.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>¿Hacen pedidos especiales para eventos o bodas?</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+          <div class="faq-answer">
+            ¡Sí! Realizamos torres de donas, donas personalizadas con colores corporativos o nombres de novios, y cajas de regalo para eventos desde 24 piezas. Escríbenos por WhatsApp con 48 horas de anticipación para cotizaciones especiales.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Locations & Hours
+       ========================================================================== -->
+  <section class="section" id="locations">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-subtitle">VISÍTANOS EN TIENDA</span>
+        <h2 class="section-title">Sucursales & Horarios</h2>
+        <p class="section-desc">
+          Ven por el aroma irresistible a donas recién horneadas y acompáñalas con un buen café.
+        </p>
+      </div>
+
+      <div class="locations-grid">
+        
+        <div class="location-card">
+          <div class="location-name">
+            <span class="text-red">●</span> More Donuts Roma Norte
+          </div>
+          <div class="location-detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Av. Álvaro Obregón 154, Roma Norte, Cuauhtémoc, CDMX</span>
+          </div>
+          <div class="location-detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>Lunes a Domingo: 7:30 AM – 9:30 PM</span>
+          </div>
+          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="margin-top: 0.5rem; justify-content: center;">
+            <span>Ver en Google Maps</span>
+          </a>
+        </div>
+
+        <div class="location-card">
+          <div class="location-name">
+            <span class="text-red">●</span> More Donuts Polanco
+          </div>
+          <div class="location-detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Alejandro Dumas 95, Polanco, Miguel Hidalgo, CDMX</span>
+          </div>
+          <div class="location-detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>Lunes a Domingo: 8:00 AM – 10:00 PM</span>
+          </div>
+          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="margin-top: 0.5rem; justify-content: center;">
+            <span>Ver en Google Maps</span>
+          </a>
+        </div>
+
+        <div class="location-card">
+          <div class="location-name">
+            <span class="text-red">●</span> More Donuts Coyoacán
+          </div>
+          <div class="location-detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Jardín Centenario 12, Villa Coyoacán, Coyoacán, CDMX</span>
+          </div>
+          <div class="location-detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>Martes a Domingo: 8:30 AM – 10:30 PM</span>
+          </div>
+          <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="margin-top: 0.5rem; justify-content: center;">
+            <span>Ver en Google Maps</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Brand Col -->
+        <div class="footer-brand">
+          <a href="#" class="brand-logo">
+            <div class="logo-icon-wrap" style="width: 40px; height: 40px;">
+              <svg class="logo-donut-svg" style="width: 26px; height: 26px;" viewBox="0 0 100 100" fill="none">
+                <circle cx="50" cy="50" r="44" fill="#eab308"/>
+                <path d="M 50 8 C 72 8, 92 24, 92 50 C 92 68, 80 82, 70 85 C 64 87, 60 82, 54 86 C 48 90, 42 92, 34 90 C 20 86, 8 72, 8 50 C 8 26, 26 8, 50 8 Z" fill="#e11d48"/>
+                <circle cx="50" cy="50" r="16" fill="#000"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <div class="brand-name" style="font-size: 1.3rem;"><span>MORE</span> DONUTS</div>
+            </div>
+          </a>
+          <p>
+            Reinventando la cultura de las donas artesanales en México con diseño, ingredientes naturales y temáticas mensuales que enamoran.
+          </p>
+          <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Links 1 -->
+        <div class="footer-col">
+          <h4>Explorar</h4>
+          <ul class="footer-links">
+            <li><a href="#menu">Donas Clásicas</a></li>
+            <li><a href="#temporada">Sabores de Temporada</a></li>
+            <li><a href="#builder">Laboratorio More</a></li>
+            <li><a href="#combos">Packs de Regalo</a></li>
+            <li><a href="#locations">Sucursales</a></li>
+          </ul>
+        </div>
+
+        <!-- Links 2 -->
+        <div class="footer-col">
+          <h4>Atención al Cliente</h4>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/525512345678" target="_blank" rel="noopener noreferrer">Pedidos por WhatsApp</a></li>
+            <li><a href="#locations">Horarios de Entrega</a></li>
+            <li><a href="#reviews">Dejar una Reseña</a></li>
+            <li><a href="#">Facturación Electrónica</a></li>
+            <li><a href="#">Aviso de Privacidad</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-col">
+          <h4>Club More Donuts</h4>
+          <p style="font-size: 0.88rem;">Recibe alertas cuando lancemos la temática del nuevo mes y obtén una dona gratis en tu cumpleaños.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); showToast('🎉 ¡Bienvenido al Club More Donuts!'); this.reset();">
+            <input type="email" class="newsletter-input" placeholder="Tu correo electrónico..." required>
+            <button type="submit" class="btn-primary" style="padding: 0.6rem 1.1rem;">Unirme</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 MORE DONUTS MÉXICO S.A. DE C.V. Todos los derechos reservados.</div>
+        <div>Precios mostrados en Pesos Mexicanos ($ MXN). Hecho con amor y donas recién horneadas.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Shopping Cart Drawer (Slide-Over)
+       ========================================================================== -->
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <div class="cart-title">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        <span>Tu Pedido</span>
+      </div>
+      <button class="close-cart-btn" id="closeCartBtn" aria-label="Cerrar carrito">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <!-- Items container -->
+    <div class="cart-items-container" id="cartItemsContainer">
+      <!-- Generated dynamically -->
+    </div>
+
+    <!-- Summary & Checkout Actions -->
+    <div class="cart-footer">
+      <div class="cart-summary-line">
+        <span>Subtotal:</span>
+        <span id="cartSubtotal">$0.00 MXN</span>
+      </div>
+      <div class="cart-summary-line">
+        <span>Envío Local (Gratis > $299):</span>
+        <span id="cartDelivery">$0.00 MXN</span>
+      </div>
+      <div class="cart-summary-line total">
+        <span>Total a Pagar:</span>
+        <span id="cartTotal" class="text-red">$0.00 MXN</span>
+      </div>
+
+      <div class="cart-actions">
+        <a id="btnWhatsAppOrder" class="btn-whatsapp-order" href="#" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          <span>Pedir Directo por WhatsApp</span>
+        </a>
+
+        <button id="btnProceedCheckout" class="btn-primary" style="justify-content: center;">
+          <span>Completar Datos de Entrega</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       Checkout Modal (Datos de Entrega en CDMX / México)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="checkoutModal">
+    <div class="modal-box">
+      <button class="modal-close" id="closeCheckoutModal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <h3 style="font-size: 1.5rem; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span class="text-red">🛵</span> Datos para tu Entrega
+      </h3>
+      <p style="color: var(--text-gray); font-size: 0.88rem;">
+        Ingresa tus datos para preparar el ticket y enviarlo directamente a la cocina de More Donuts por WhatsApp.
+      </p>
+
+      <form class="checkout-form" id="checkoutForm">
+        <div class="form-group">
+          <label for="orderName">Nombre y Apellidos</label>
+          <input type="text" id="orderName" class="form-control" placeholder="Ej. Mariana López" required>
+        </div>
+
+        <div class="form-group">
+          <label for="orderPhone">Teléfono / WhatsApp</label>
+          <input type="tel" id="orderPhone" class="form-control" placeholder="Ej. 55 1234 5678" required>
+        </div>
+
+        <div class="form-group">
+          <label for="orderAddress">Dirección de Entrega Completa (Calle, No., Colonia, CP)</label>
+          <input type="text" id="orderAddress" class="form-control" placeholder="Ej. Calle Colima 120, Int 4, Roma Norte, 06700 CDMX" required>
+        </div>
+
+        <div class="form-group">
+          <label for="orderPayment">Método de Pago Preferido</label>
+          <select id="orderPayment" class="form-control">
+            <option value="Efectivo contra entrega">Efectivo contra entrega</option>
+            <option value="Tarjeta con terminal al repartidor">Tarjeta Débito/Crédito al repartidor</option>
+            <option value="Transferencia SPEI">Transferencia SPEI previa</option>
+            <option value="Pago en línea con tarjeta">Link de Pago con Tarjeta</option>
+            <option value="Apple Pay (en preparación)" disabled>Apple Pay — en preparación</option>
+            <option value="Google Pay (en preparación)" disabled>Google Pay — en preparación</option>
+          </select>
+        </div>
+
+        <div class="payment-readiness-note" role="status">
+          <strong>Pagos digitales seguros próximamente</strong>
+          <span>Apple Pay y Google Pay se activarán cuando el sitio esté publicado con HTTPS, dominio verificado y un procesador de pagos conectado.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="orderNotes">Notas Especiales / Dedicatoria</label>
+          <input type="text" id="orderNotes" class="form-control" placeholder="Ej. Sin chispas en la de chocolate, o felicitación para cumpleaños...">
+        </div>
+
+        <button type="submit" class="btn-whatsapp-order" style="margin-top: 1rem;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          <span>Confirmar y Enviar a WhatsApp</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       1. Auth Modal (Iniciar Sesión / Registro / Acceso Rápido Demo)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="authModal">
+    <div class="modal-box">
+      <button class="modal-close" id="closeAuthModal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div style="text-align: center; margin-bottom: 1.5rem;">
+        <div style="display: inline-flex; width: 50px; height: 50px; border-radius: 50%; background: rgba(225,29,72,0.15); align-items: center; justify-content: center; color: var(--red-primary); margin-bottom: 0.75rem;">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        </div>
+        <h3 id="authModalTitle" style="font-size: 1.6rem; font-weight: 900;">Acceso a More Donuts</h3>
+        <p style="color: var(--text-gray); font-size: 0.88rem;">Inicia sesión con una cuenta creada en el sistema seguro de producción.</p>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 1rem; margin: 1.2rem 0; color: var(--text-muted); font-size: 0.8rem;">
+        <div style="flex: 1; height: 1px; background: var(--border-subtle);"></div>
+        <span>O con tu correo</span>
+        <div style="flex: 1; height: 1px; background: var(--border-subtle);"></div>
+      </div>
+
+      <form id="authForm">
+        <div class="form-group" id="authNameGroup" style="display: none;">
+          <label for="authName">Nombre Completo</label>
+          <input type="text" id="authName" class="form-control" placeholder="Ej. Juan Pérez">
+        </div>
+
+        <div class="form-group">
+          <label for="authEmail">Correo Electrónico</label>
+          <input type="email" id="authEmail" class="form-control" placeholder="tu@correo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="authPassword">Contraseña</label>
+          <input type="password" id="authPassword" class="form-control" placeholder="••••••••" required>
+        </div>
+
+        <button type="submit" class="btn-primary" id="btnSubmitAuth" style="width: 100%; justify-content: center; margin-top: 1rem;">
+          <span>Iniciar Sesión</span>
+        </button>
+      </form>
+
+      <div style="text-align: center; margin-top: 1.2rem; font-size: 0.88rem; color: var(--text-muted);">
+        <span id="authToggleText">¿No tienes cuenta aún?</span>
+        <a href="#" id="authToggleBtn" style="color: var(--red-light); font-weight: 700; text-decoration: none; margin-left: 0.3rem;">Crear una Cuenta</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       2. Customer Portal Modal (Apartado de Usuario Cliente)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="customerModal">
+    <div class="modal-box modal-lg">
+      <button class="modal-close" id="closeCustomerModal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <span style="color: var(--red-primary); font-size: 0.8rem; font-weight: 800; text-transform: uppercase;">Portal de Cliente</span>
+          <h3 id="customerPortalName" style="font-size: 1.8rem; font-weight: 900;">Hola, Mariana</h3>
+        </div>
+        <div style="display: flex; gap: 0.6rem;">
+          <button class="btn-secondary" onclick="closeCustomerModal(); location.href='#menu';">
+            <span>🍩 Explorar Menú</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Customer Portal Tabs -->
+      <div class="panel-tabs">
+        <button class="panel-tab-btn active" data-cust-tab="orders">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span>Mis Pedidos (<span id="custOrdersCount">0</span>)</span>
+        </button>
+        <button class="panel-tab-btn" data-cust-tab="profile">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          <span>Mi Perfil & Dirección de Entrega</span>
+        </button>
+      </div>
+
+      <!-- Customer Tab 1: Orders -->
+      <div id="custTabOrders" class="portal-tab-content">
+        <div id="custOrdersList">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+
+      <!-- Customer Tab 2: Profile -->
+      <div id="custTabProfile" class="portal-tab-content" style="display: none;">
+        <form id="custProfileForm" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem;">
+          <div class="form-group" style="grid-column: 1 / -1;">
+            <label>Nombre Completo</label>
+            <input type="text" id="custProfileName" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label>Correo Electrónico</label>
+            <input type="email" id="custProfileEmail" class="form-control" disabled style="opacity: 0.7;">
+          </div>
+          <div class="form-group">
+            <label>WhatsApp / Teléfono</label>
+            <input type="tel" id="custProfilePhone" class="form-control" placeholder="55 1234 5678" required>
+          </div>
+          <div class="form-group" style="grid-column: 1 / -1;">
+            <label>Dirección Predeterminada de Entrega (CDMX / México)</label>
+            <input type="text" id="custProfileAddress" class="form-control" placeholder="Calle, Número, Colonia, Código Postal" required>
+          </div>
+          <div style="grid-column: 1 / -1; display: flex; justify-content: flex-end;">
+            <button type="submit" class="btn-primary">Guardar Datos de Entrega</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       3. Admin Dashboard Modal (Panel de Administrador & Meta WhatsApp Hub)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="adminModal">
+    <div class="modal-box modal-lg" style="max-width: 1050px;">
+      <button class="modal-close" id="closeAdminModal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <span style="background: var(--red-primary); color: #fff; padding: 2px 8px; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 800; text-transform: uppercase;">Administración Oficial</span>
+          <h3 style="font-size: 1.8rem; font-weight: 900; margin-top: 4px;">Panel de Control More Donuts</h3>
+        </div>
+        <div style="display: flex; gap: 0.6rem;">
+          <button class="btn-secondary" onclick="exportOrdersCSV()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            <span>Exportar Pedidos</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Admin Tabs -->
+      <div class="panel-tabs">
+        <button class="panel-tab-btn active" data-admin-tab="dashboard">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          <span>Métricas</span>
+        </button>
+        <button class="panel-tab-btn" data-admin-tab="orders">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          <span>Gestor de Pedidos</span>
+        </button>
+        <button class="panel-tab-btn" data-admin-tab="products">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="4"></circle></svg>
+          <span>Gestión de Menú</span>
+        </button>
+        <button class="panel-tab-btn" data-admin-tab="meta-api">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+          <span style="color: #4ade80;">Conectar API Meta WhatsApp</span>
+        </button>
+      </div>
+
+      <!-- Admin Tab 1: Dashboard Metrics -->
+      <div id="adminTabDashboard" class="admin-tab-content">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <span class="metric-title">Ventas Totales</span>
+            <div class="metric-value text-red" id="metricTotalSales">$0.00 MXN</div>
+            <span style="font-size: 0.72rem; color: #4ade80; margin-top: 4px;">▲ +18% este mes</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-title">Total Pedidos</span>
+            <div class="metric-value" id="metricTotalOrders">0</div>
+            <span style="font-size: 0.72rem; color: var(--text-muted); margin-top: 4px;">En cocina y entregados</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-title">Dona Más Vendida</span>
+            <div class="metric-value" style="font-size: 1.25rem;" id="metricTopDonut">Glaseada Tradicional</div>
+            <span style="font-size: 0.72rem; color: var(--red-light); margin-top: 4px;">Top #1 en pedidos</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-title">Estado Meta API</span>
+            <div class="metric-value" style="font-size: 1.15rem;" id="metricApiStatus">
+              <span class="text-green">● Listo</span>
+            </div>
+            <span style="font-size: 0.72rem; color: var(--text-muted); margin-top: 4px;">WhatsApp Cloud API</span>
+          </div>
+        </div>
+
+        <h4 style="font-size: 1.15rem; margin-bottom: 1rem;">Últimos Pedidos Entrantes</h4>
+        <div id="adminRecentOrdersTable">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Admin Tab 2: Orders Manager -->
+      <div id="adminTabOrders" class="admin-tab-content" style="display: none;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; gap: 1rem; flex-wrap: wrap;">
+          <h4 style="font-size: 1.15rem;">Todos los Pedidos</h4>
+          <div style="display: flex; gap: 0.5rem;">
+            <select id="filterOrderStatus" class="form-control" style="padding: 0.4rem 0.8rem; font-size: 0.85rem;" onchange="renderAdminOrders()">
+              <option value="todos">Todos los estados</option>
+              <option value="Pendiente">Pendientes</option>
+              <option value="En Preparación">En Preparación</option>
+              <option value="En Camino">En Camino</option>
+              <option value="Entregado">Entregados</option>
+              <option value="Cancelado">Cancelados</option>
+            </select>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="custom-table" id="adminOrdersTable">
+            <!-- Table generated by JS -->
+          </table>
+        </div>
+      </div>
+
+      <!-- Admin Tab 3: Products Manager -->
+      <div id="adminTabProducts" class="admin-tab-content" style="display: none;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 1rem;">
+          <h4 style="font-size: 1.15rem;">Catálogo de Donas y Precios</h4>
+          <button class="btn-primary" onclick="toggleNewProductForm()">
+            <span>+ Agregar Nueva Dona</span>
+          </button>
+        </div>
+
+        <!-- Add product form (hidden by default) -->
+        <div id="newProductFormBox" style="display: none; background: rgba(0,0,0,0.3); border: 1px dashed var(--border-red); border-radius: var(--radius-md); padding: 1.5rem; margin-bottom: 1.5rem;">
+          <h5 style="margin-bottom: 1rem; font-size: 1rem;">Nueva Dona para el Menú</h5>
+          <form id="newProductForm" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label>Nombre de la Dona</label>
+              <input type="text" id="newProdName" class="form-control" placeholder="Ej. Dona Caramelo Macchiato" required>
+            </div>
+            <div class="form-group">
+              <label>Precio en Pesos ($ MXN)</label>
+              <input type="number" id="newProdPrice" class="form-control" placeholder="Ej. 38" step="1" required>
+            </div>
+            <div class="form-group">
+              <label>Categoría</label>
+              <select id="newProdCategory" class="form-control">
+                <option value="clasicas">Clásicas</option>
+                <option value="temporada">De Temporada</option>
+                <option value="combos">Combos & Packs</option>
+                <option value="bebidas">Bebidas</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Etiqueta / Tag</label>
+              <input type="text" id="newProdTag" class="form-control" placeholder="Ej. Nueva, Edición Limitada">
+            </div>
+            <div class="form-group" style="grid-column: 1 / -1;">
+              <label>Descripción de Sabores</label>
+              <input type="text" id="newProdDesc" class="form-control" placeholder="Ingredientes, masa, cobertura..." required>
+            </div>
+            <div style="grid-column: 1 / -1; display: flex; gap: 0.8rem; justify-content: flex-end;">
+              <button type="button" class="btn-secondary" onclick="toggleNewProductForm()">Cancelar</button>
+              <button type="submit" class="btn-primary">Guardar en Menú</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="table-responsive">
+          <table class="custom-table" id="adminProductsTable">
+            <!-- Table generated by JS -->
+          </table>
+        </div>
+      </div>
+
+      <!-- Admin Tab 4: Meta WhatsApp API Hub -->
+      <div id="adminTabMetaApi" class="admin-tab-content" style="display: none;">
+        
+        <div class="meta-card">
+          <div class="meta-header">
+            <div class="meta-title">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              <span>Meta WhatsApp Cloud API (Oficial)</span>
+            </div>
+            <div class="meta-status-indicator">
+              <span class="meta-status-dot" id="metaStatusDot"></span>
+              <span id="metaStatusText">Configuración Lista</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: #a1a1aa; line-height: 1.5;">
+            Conecta tu cuenta de desarrollador en <strong>Meta for Developers</strong> para automatizar notificaciones oficiales de WhatsApp: confirmación de pedido, avisos de entrega y tickets automáticos.
+          </p>
+        </div>
+
+        <form id="metaApiConfigForm">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem;">
+            
+            <div class="form-group" style="grid-column: 1 / -1;">
+              <label for="metaAccessToken">
+                Meta Permanent Access Token (Bearer Token de Graph API)
+                <small style="color: var(--text-muted); font-weight: 400;">(Empieza con EAAB...)</small>
+              </label>
+              <input type="password" id="metaAccessToken" class="form-control" placeholder="EAABwzLix... (Token de sistema de Meta Business)">
+            </div>
+
+            <div class="form-group">
+              <label for="metaPhoneId">
+                WhatsApp Phone Number ID
+                <small style="color: var(--text-muted); font-weight: 400;">(ID del número asignado en Meta)</small>
+              </label>
+              <input type="text" id="metaPhoneId" class="form-control" placeholder="Ej. 109876543210987">
+            </div>
+
+            <div class="form-group">
+              <label for="metaWabaId">
+                WhatsApp Business Account ID (WABA ID)
+              </label>
+              <input type="text" id="metaWabaId" class="form-control" placeholder="Ej. 987654321098765">
+            </div>
+
+            <div class="form-group">
+              <label for="metaTemplateName">
+                Nombre de Plantilla Aprobada (Template Name)
+              </label>
+              <input type="text" id="metaTemplateName" class="form-control" value="moredonuts_pedido_notificacion" placeholder="Ej. moredonuts_pedido_notificacion">
+            </div>
+
+            <div class="form-group">
+              <label for="metaMode">
+                Modo de Operación
+              </label>
+              <select id="metaMode" class="form-control">
+                <option value="test">🧪 Modo Simulación & Sandbox (Ideal para pruebas)</option>
+                <option value="live">🚀 Modo Producción Oficial (Envío Real de Meta)</option>
+              </select>
+            </div>
+
+            <div class="form-group" style="grid-column: 1 / -1;">
+              <label for="metaWebhookVerify">
+                Webhook Verify Token (Para recibir eventos de entrega)
+              </label>
+              <input type="text" id="metaWebhookVerify" class="form-control" value="MORE_DONUTS_SECURE_TOKEN_2026">
+            </div>
+
+          </div>
+
+          <!-- Action Buttons -->
+          <div style="display: flex; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap;">
+            <button type="submit" class="btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+              <span>Guardar Credenciales de Meta</span>
+            </button>
+
+            <button type="button" class="btn-secondary" onclick="testMetaWhatsAppConnection()">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>🧪 Probar Envío con Meta API</span>
+            </button>
+          </div>
+        </form>
+
+        <!-- Live Payload Preview Box -->
+        <div style="margin-top: 2rem; background: #000; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem;">
+            <span style="font-size: 0.78rem; font-weight: 800; color: #38bdf8; text-transform: uppercase;">
+              Payload HTTP Graph API de Meta (POST /v19.0/{PHONE_NUMBER_ID}/messages):
+            </span>
+            <span style="font-size: 0.75rem; color: var(--text-muted);">JSON Formato Oficial</span>
+          </div>
+          <pre id="metaPayloadPreview" style="font-family: monospace; font-size: 0.8rem; color: #4ade80; overflow-x: auto; max-height: 180px;">
+{
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "525512345678",
+  "type": "template",
+  "template": {
+    "name": "moredonuts_pedido_notificacion",
+    "language": { "code": "es_MX" },
+    "components": [
+      {
+        "type": "body",
+        "parameters": [
+          { "type": "text", "text": "Mariana López" },
+          { "type": "text", "text": "MD-8942" },
+          { "type": "text", "text": "$175.00 MXN" }
+        ]
+      }
+    ]
+  }
+}
+          </pre>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- JavaScript -->
+  <script src="app.js?v=20261012"></script>
+</body>
+</html>
